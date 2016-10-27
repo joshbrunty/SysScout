@@ -4,7 +4,8 @@
 # Linux-based System.
 # Author: Josh Brunty [josh dot brunty at marshall dot edu]
 # Date: 16September2016
-# Version 1.0.0
+# Version 1.0.1
+# Updated 27October2016
 # https//github.com/joshbrunty/SysScout
 
 # Define variables
