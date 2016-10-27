@@ -21,7 +21,7 @@ function pause(){
 function show_menu(){
     echo "-------------------------------------------"
     echo "
-    _____               _____                    _   
+   _____               _____                     _   
   / ____|             / ____|                   | |  
  | (___   _   _  ___ | (___    ___  ___   _   _ | |_ 
   \___ \ | | | |/ __| \___ \  / __|/ _ \ | | | || __|
@@ -35,7 +35,7 @@ echo "A Network Forensics/Incident Response Tool"
 echo "By: Josh Brunty [josh dot brunty at marshall dot edu]"
 
     echo "-------------------------------------------"
-    echo "Current Date : $(date)"
+    echo "Current Local Machine Date & Time : $(date)"
     echo "---------------------------"
     echo "   Main Menu"
     echo "---------------------------"
