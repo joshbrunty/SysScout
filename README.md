@@ -2,6 +2,7 @@
 SysScout is a fully encapsulated script that easily pulls local machine information from Linux systems.  A simple, easy to use Incident Response and Network Forensics tool. 
 
 ### Download, setup & usage
+  Run these commands in a Linux-Based Terminal
 * git clone https://github.com/joshbrunty/sysscout /opt/sysscout/
 * cd /opt/sysscout/
 * . sysscout.sh
