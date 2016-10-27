@@ -9,4 +9,4 @@ SysScout is a fully encapsulated script that quickly and easily pulls local mach
 
 Usage is pretty easy.  Select from the Main Menu options for the desired information on-screen.
   
-Mac Forensicators NOTE: This script works for the most part in MacOS, but not completely.  You will also need to use a directory besides /opt
+Mac Forensicators NOTE: This script works for the most part in MacOS, but not completely (there are some wonky exceptions).  You will also need to use a directory besides /opt as this doesn't exist in HFS+. 
