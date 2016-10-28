@@ -70,7 +70,7 @@ function os_info(){
 }
 
 # Get info about local machine time, date, and timezone
-function os_info(){
+function time_info(){
 	write_header " Time Information "
 	echo "Local Machine Time : $(date +%R)"
 	echo "Local Machine Timezone : $(date +%Z)"	
@@ -150,14 +150,15 @@ function read_input(){
 	read -p "Enter your choice [ 1 - 8 ] " c
 	case $c in
 		1)	os_info ;;
-		2)	host_info ;;
-		3)	net_info ;;
-		4)	user_info "who" ;;
-		5)	user_info "last" ;;
-		6)	mem_info ;;
-		7)	echo "Happy Forensicating. Go Herd!!!"; exit 0 ;;
+		2)	time_info ;;
+		3)	host_info ;;
+		4)	net_info ;;
+		5)	user_info "who" ;;
+		6)	user_info "last" ;;
+		7)	mem_info ;;
+		8)	echo "Happy Forensicating. Go Herd!"; exit 0 ;;
 		*)	
-			echo "Please select between 1 to 8"
+			echo "Please select between 1 to 8: "
 			pause
 	esac
 }
