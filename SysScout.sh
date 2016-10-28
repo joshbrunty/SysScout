@@ -2,7 +2,8 @@
 
 # SysScout - A simple menu driven shell script to get information about your 
 # Linux-based System.
-# Author: Josh Brunty [josh dot brunty at marshall dot edu]
+# Author: Josh Brunty 
+# Email: josh [dot] brunty at marshall [dot] edu
 # Date: 16September2016
 # Version 1.0.1
 # Updated 28October2016
