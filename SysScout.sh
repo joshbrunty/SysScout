@@ -73,7 +73,7 @@ function os_info(){
 function os_info(){
 	write_header " Time Information "
 	echo "Local Machine Time : $(date +%R)"
-	echo "Local Machine Timezone : $(date +%Z # timezone name)"	
+	echo "Local Machine Timezone : $(date +%Z)"	
 	echo "Local Machine Date : $(date +"%d-%m-%y")"
 	#pause "Press [Enter] key to continue..."
 	pause
