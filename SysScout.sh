@@ -135,11 +135,11 @@ function mem_info(){
 	free -m
     
     echo "*********************************"
-	echo "*** Virtual Memory Statistics ***"
+    echo "*** Virtual Memory Statistics ***"
     echo "*********************************"
 	vmstat
     echo "***********************************"
-	echo "*** Top 5 Memory Utilizing Processes ***"
+    echo "*** Top 5 Memory Utilizing Processes ***"
     echo "***********************************"	
 	ps auxf | sort -nr -k 4 | head -5	
 	pause
