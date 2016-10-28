@@ -5,7 +5,7 @@
 # Author: Josh Brunty [josh dot brunty at marshall dot edu]
 # Date: 16September2016
 # Version 1.0.1
-# Updated 27October2016
+# Updated 28October2016
 # https//github.com/joshbrunty/SysScout
 
 # Define variables
@@ -41,12 +41,13 @@ echo "By: Josh Brunty [josh dot brunty at marshall dot edu]"
     echo "   Main Menu"
     echo "---------------------------"
 	echo "1. Operating System Info"
-	echo "2. HOST and DNS Info"
-	echo "3. Network Info"
-	echo "4. Who is Online"
-	echo "5. Last Logged In Users"
-	echo "6. Memory Information"
-	echo "7. Exit"
+	echo "2. Time Info"
+	echo "3. HOST and DNS Info"
+	echo "4. Network Info"
+	echo "5. Who is Online"
+	echo "6. Last Logged In Users"
+	echo "7. Memory Information"
+	echo "8. Exit"
 }
 
 # Display the header message
@@ -63,6 +64,16 @@ function os_info(){
 	write_header " Operating System Information "
 	echo "Operating system : $(uname -no)"
 	echo "Operating System Version : $(uname -mv)"
+	#pause "Press [Enter] key to continue..."
+	pause
+}
+
+# Get info about local machine time, date, and timezone
+function os_info(){
+	write_header " Time Information "
+	echo "Local Machine Time : $(date +%R)"
+	echo "Local Machine Timezone : $(date +%Z # timezone name)"	
+	echo "Local Machine Date : $(date +"%d-%m-%y")"
 	#pause "Press [Enter] key to continue..."
 	pause
 }
