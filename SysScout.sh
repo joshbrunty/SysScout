@@ -97,24 +97,24 @@ function net_info(){
 	write_header " Network information "
 	echo "Total network interfaces found : $(wc -w <<<${devices})"
 
-	echo "***********************"
-	echo "*** IP Address Info***"
-	echo "***********************"
+	echo "-----------------------"
+	echo "--- IP Address Info ---"
+	echo "-----------------------"
 	ip -4 address show
 
-	echo "***********************"
-	echo "*** Network Routing ***"
-	echo "***********************"
+	echo "-----------------------"
+	echo "--- Network Routing ---"
+	echo "-----------------------"
 	netstat -nr
 
-	echo "**************************************"
-	echo "*** Interface Traffic information ***"
-	echo "**************************************"
+	echo "--------------------------------------"
+	echo "--- Interface Traffic information  ---"
+	echo "--------------------------------------"
 	netstat -i
 
-	echo "***********************"
-	echo "*** MAC/Hardware Addresses ***"
-	echo "***********************"
+	echo "------------------------------"
+	echo "--- MAC/Hardware Addresses ---"
+	echo "------------------------------"
 	cat /sys/class/net/*/address
 	pause 
 }
@@ -134,13 +134,13 @@ function mem_info(){
 	write_header " Free and used memory "
 	free -m
     
-    echo "*********************************"
-    echo "*** Virtual Memory Statistics ***"
-    echo "*********************************"
+    echo "---------------------------------"
+    echo "--- Virtual Memory Statistics ---"
+    echo "---------------------------------*"
 	vmstat
-    echo "***********************************"
-    echo "*** Top 5 Memory Utilizing Processes ***"
-    echo "***********************************"	
+    echo "----------------------------------------"
+    echo "--- Top 5 Memory Utilizing Processes ---"
+    echo "----------------------------------------"	
 	ps auxf | sort -nr -k 4 | head -5	
 	pause
 }
