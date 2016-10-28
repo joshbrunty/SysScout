@@ -146,7 +146,7 @@ function mem_info(){
 # Get input via the keyboard and make a decision. 
 function read_input(){
 	local c
-	read -p "Enter your choice [ 1 - 7 ] " c
+	read -p "Enter your choice [ 1 - 8 ] " c
 	case $c in
 		1)	os_info ;;
 		2)	host_info ;;
