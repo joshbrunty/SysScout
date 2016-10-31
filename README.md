@@ -2,18 +2,23 @@
 SysScout is a fully encapsulated script that quickly and easily pulls local machine information from Linux-Based systems.  A simple, easy to use Incident Response and Network Forensics tool.  Unlike other scripts that require installation of dependencies and toolkits, SysScout is ready to deploy on most Linux Distros
 
 ### Download, setup & usage
-  Run these commands in a Linux-Based Terminal
+  To download and run SysScout, run the following commands in a Linux-Based Terminal:
 * git clone https://github.com/joshbrunty/SysScout /opt/SysScout/
 * cd /opt/SysScout/
-* . SysScout.sh
+* ./ SysScout.sh or bash SysScout.sh
 
-Usage is pretty easy.  Select from the Main Menu options for the desired information on-screen.
+Usage is simple and intuitive.  Select from the Main Menu options of 1-8 to show the desired information on-screen.
   
-Mac Forensicators NOTE: This script works for the most part in MacOS, but not completely (there are some wonky exceptions).  You will also need to use a directory besides /opt as this doesn't exist in HFS+. 
+### Mac & Windows Note
+Mac Forensicators, this script works for the most part in MacOS, but not completely (there are some crazy wonky exceptions and outputs).  You will also need to use a directory besides /opt as this doesn't exist in HFS+. If using Windows 10 Bash, the script will run by issuing a bash -c command (i.e. bash -c "SysScout.sh") however, not all menus are supported and/or will not work in Windows.
+
+### Contact
+
+Email: josh [dot] brunty [at] marshall [dot] edu
 
 Follow @joshbrunty on Twitter [![Twitter Follow](https://img.shields.io/twitter/follow/shields_io.svg?style=social&label=Follow&maxAge=25920)](https://twitter.com/joshbrunty) 
 
 Follow @MUDigForensics on Twitter [![Twitter Follow](https://img.shields.io/twitter/follow/shields_io.svg?style=social&label=Follow&maxAge=25920)](https://twitter.com/MUDigForensics) 
 
-<img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT licsense" width="100" height="20">
+<img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="SysScout is Open Source via MIT License" width="100" height="20">
 
