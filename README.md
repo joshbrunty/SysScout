@@ -3,9 +3,9 @@ SysScout is a fully encapsulated script that quickly and easily pulls local mach
 
 ### Download, setup & usage
   To download and run SysScout, run the following commands in a Linux-Based Terminal:
-* git clone https://github.com/joshbrunty/SysScout /opt/SysScout/
-* cd /opt/SysScout/
-* ./ SysScout.sh or bash SysScout.sh
+* ```git clone https://github.com/joshbrunty/SysScout /opt/SysScout/```
+* ```cd /opt/SysScout/```
+* ```./ SysScout.sh``` or ```bash SysScout.sh```
 
 Usage is simple and intuitive.  Select from the Main Menu options of 1-8 to show the desired information on-screen.
   
