@@ -3,10 +3,11 @@
 # SysScout - A simple menu driven shell script to get information about your 
 # Linux-based System.
 # Author: Josh Brunty 
-# Email: josh [dot] brunty at marshall [dot] edu
+# Email: josh [dot] brunty [at] marshall [dot] edu
+# Twitter: @joshbrunty @MUDigForensics
 # Date: 16September2016
-# Version 1.0.1
-# Updated 28October2016
+# Version 1.0.2
+# Updated 30October2016
 # https//github.com/joshbrunty/SysScout
 
 # Define variables
@@ -29,12 +30,12 @@ function show_menu(){
   \___ \ | | | |/ __| \___ \  / __|/ _ \ | | | || __|
   ____) || |_| |\__ \ ____) || (__| (_) || |_| || |_ 
  |_____/  \__, ||___/|_____/  \___|\___/  \__,_| \__|
-           __/ |                                     
+           __/ |v.1.0.2                                     
           |___/                                 "
     echo "-------------------------------------------"
 
 echo "A Network Forensics/Incident Response Tool"
-echo "By: Josh Brunty [josh dot brunty at marshall dot edu]"
+echo "By: Josh Brunty: josh [dot] brunty [at] marshall [dot] edu"
 
     echo "-------------------------------------------"
     echo "Current Local Machine Date & Time : $(date)"
@@ -136,7 +137,7 @@ function mem_info(){
     
     echo "---------------------------------"
     echo "--- Virtual Memory Statistics ---"
-    echo "---------------------------------*"
+    echo "---------------------------------"
 	vmstat
     echo "----------------------------------------"
     echo "--- Top 5 Memory Utilizing Processes ---"
@@ -156,7 +157,7 @@ function read_input(){
 		5)	user_info "who" ;;
 		6)	user_info "last" ;;
 		7)	mem_info ;;
-		8)	echo "Happy Forensicating. Go Herd!"; exit 0 ;;
+		8)	echo "Happy Forensicating. Go Herd! Follow us on Twitter: @joshbrunty @MUDigForensics"; exit 0 ;;
 		*)	
 			echo "Please select between 1 to 8: "
 			pause
