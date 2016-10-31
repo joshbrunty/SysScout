@@ -20,5 +20,4 @@ Follow @joshbrunty on Twitter [![Twitter Follow](https://img.shields.io/twitter/
 
 Follow @MUDigForensics on Twitter [![Twitter Follow](https://img.shields.io/twitter/follow/shields_io.svg?style=social&label=Follow&maxAge=25920)](https://twitter.com/MUDigForensics) 
 
-<img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="SysScout is Open Source via MIT License" width="100" height="20">
-
+SysScout is Open Source via the MIT License (MIT): <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="SysScout is Open Source via MIT License" width="100" height="20">
