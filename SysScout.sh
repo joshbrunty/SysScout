@@ -4,9 +4,9 @@
 # Author: Josh Brunty 
 # Email: josh [dot] brunty [at] marshall [dot] edu
 # Twitter: @joshbrunty @MUDigForensics
-# Date: 16September2016
-# Version 1.0.2
-# Updated 30October2016
+# Version 1.0.3
+# Updated 31October2016
+# v.1.0.3 fix- fixed minor issue with date output (line 78)
 # https://github.com/joshbrunty/SysScout
 
 # Define variables
@@ -29,7 +29,7 @@ function show_menu(){
   \___ \ | | | |/ __| \___ \  / __|/ _ \ | | | || __|
   ____) || |_| |\__ \ ____) || (__| (_) || |_| || |_ 
  |_____/  \__, ||___/|_____/  \___|\___/  \__,_| \__|
-           __/ |v.1.0.2                                     
+           __/ |v.1.0.3                                     
           |___/                                 "
     echo "-------------------------------------------"
 
@@ -74,7 +74,7 @@ function time_info(){
 	write_header " Time Information "
 	echo "Local Machine Time : $(date +%R)"
 	echo "Local Machine Timezone : $(date +%Z)"	
-	echo "Local Machine Date : $(date +"%d-%m-%y")"
+	echo "Local Machine Date : $(date +"%m-%d-%y")"
 	#pause "Press [Enter] key to continue..."
 	pause
 }
