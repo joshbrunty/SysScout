@@ -12,7 +12,7 @@
 # Define variables
 
 # Display pause prompt
-# $1-> Message (optional)
+# Displays $Message upon enter key read
 function pause(){
 	local message="$@"
 	[ -z $message ] && message="Press [Enter] key to continue..."
