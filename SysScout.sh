@@ -163,7 +163,7 @@ function read_input(){
 	esac
 }
 
-# ignore CTRL+C, CTRL+Z and quit singles using the trap command.  This prohibits interrupts
+# ignore CTRL+C, CTRL+Z and quit signals using the trap command.  This prohibits unwanted interrupts
 trap '' SIGINT SIGQUIT SIGTSTP
 
 # logic for program input
