@@ -22,3 +22,4 @@ Follow @MUDigForensics on Twitter [![Twitter Follow](https://img.shields.io/twit
 SysScout is Open Source via the MIT License (MIT): <a href="https://opensource.org/licenses/MIT" rel="nofollow">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="SysScout is Open Source via MIT License">
 </a>
+![alt text](https://raw.githubusercontent.com/joshbrunty/SysScout/SysScout_weare4n6.png)
