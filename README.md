@@ -8,6 +8,8 @@ SysScout is a fully encapsulated bash script that quickly and easily pulls local
 * ```./ SysScout.sh``` or ```bash SysScout.sh```
 
 Usage is simple and intuitive.  Select from the Main Menu options of 1-8 to show the desired information on-screen.
+
+![alt tag](https://github.com/joshbrunty/SysScout/blob/master/SysScout_weare4n6.png)
   
 ### Mac & Windows Note
 Mac Forensicators, this script works for the most part in MacOS, but not completely (there are some crazy wonky exceptions and outputs).  You will also need to use a directory besides /opt as this doesn't exist in HFS+. If using Windows 10 Bash, the script will run by issuing a bash -c command (i.e. bash -c "SysScout.sh") however, not all menus are supported and/or will not work in Windows.
@@ -22,5 +24,3 @@ Follow @MUDigForensics on Twitter [![Twitter Follow](https://img.shields.io/twit
 SysScout is Open Source via the MIT License (MIT): <a href="https://opensource.org/licenses/MIT" rel="nofollow">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="SysScout is Open Source via MIT License">
 </a>
-
-![alt text](https://raw.githubusercontent.com/joshbrunty/SysScout/SysScout_weare4n6.png)
